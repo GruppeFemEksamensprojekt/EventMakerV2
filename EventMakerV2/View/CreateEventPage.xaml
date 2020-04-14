@@ -13,7 +13,6 @@
     </Page.DataContext>
     <Grid>
         <StackPanel>
-            <TextBox PlaceholderText="ID" Text="{Binding Id, Mode=TwoWay}" />
             <TextBox PlaceholderText="Name" Text="{Binding Name, Mode=TwoWay}" />
             <TextBox PlaceholderText="Description" Text="{Binding Description, Mode=TwoWay}" />
             <TextBox PlaceholderText="Place" Text="{Binding Place, Mode=TwoWay}" />

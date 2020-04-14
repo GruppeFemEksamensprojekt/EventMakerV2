@@ -12,6 +12,9 @@ using Windows.UI.Xaml.Controls;
 
 namespace EventMakerV2.Handler
 {
+    /// <summary>
+    /// This class handles database Insert and delete queries
+    /// </summary>
     public class EventHandler
     {
         public EventViewModel Reference { get; set; }
@@ -20,7 +23,9 @@ namespace EventMakerV2.Handler
         {
             Reference = p;
         }
-
+        /// <summary>
+        /// Saves/inserts an even obj into the database
+        /// </summary>
         public static void SaveEventAsync(Event obj)
         {
             PersistanceService.SaveEventAsJsonAsync(obj);
@@ -30,7 +35,7 @@ namespace EventMakerV2.Handler
         {
 
         }
-
+        
         public void CreateEvent()
         {
             Event obj = new Event() { Name = Reference.Name, Description = Reference.Description, Place = Reference.Place, Date = DateTimeConverter.DateTimeOffsetAndTimeSetToDateTime(Reference.Date, Reference.Time) };

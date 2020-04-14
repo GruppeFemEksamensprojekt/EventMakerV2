@@ -86,3 +86,4 @@ C:\Users\Kasper\source\repos\EventMakerV2\EventmakerV2WS\obj\Debug\EventmakerV2W
 C:\Users\Kasper\source\repos\EventMakerV2\EventmakerV2WS\obj\Debug\EventmakerV2WS.csproj.CopyComplete
 C:\Users\Kasper\source\repos\EventMakerV2\EventmakerV2WS\obj\Debug\EventmakerV2WS.dll
 C:\Users\Kasper\source\repos\EventMakerV2\EventmakerV2WS\obj\Debug\EventmakerV2WS.pdb
+C:\Users\Kasper\source\repos\EventMakerV2\EventmakerV2WS\obj\Debug\EventmakerV2WS.csprojAssemblyReference.cache
